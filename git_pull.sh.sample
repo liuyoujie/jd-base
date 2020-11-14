@@ -10,7 +10,7 @@ export LC_ALL=C
 ################################## 定义用户数量（必填） ##################################
 ## 请填入总共有多少个京东用户的账号，这里定义了多少个，在下面定义的Cookie、ForOtherFruit、ForOtherPet、ForOtherPlantBean、ForOtherSuperMarket数量就应当有多少个。
 ## 比如UserSum为4，那么Cookie、ForOtherFruit、ForOtherPet、ForOtherPlantBean、ForOtherSuperMarket都只有编号1-4的变量生效
-UserSum=
+UserSum=1
 
 
 ################################## 定义Cookie（必填） ##################################
@@ -18,7 +18,7 @@ UserSum=
 ## 获取Cookie的具体教程：https://github.com/lxk0301/jd_scripts/blob/master/backUp/GetJdCookie.md 或 https://github.com/lxk0301/jd_scripts/blob/master/backUp/GetJdCookie2.md
 ## UserSum定义了多少个，Cookie就必须输入多少个，按数字顺序1、2、3、4...依次编号下去。
 ## 不允许有汉字，如果ID有汉字，请在PC浏览器上获取Cookie，会自动将汉字转换为URL编码。
-Cookie1=""
+Cookie1="pt_key=AAJfsAyaADBGh2UP5dsk18tnjrjMQfD-Oq5YbPo4dhdISdW_b-L_lnUpJbw0dcP9Af0CcZ49Q_c;pt_pin=wdBVMeywUTawFr;"
 Cookie2=""
 Cookie3=""
 Cookie4=""
@@ -42,7 +42,7 @@ AutoAddCron="true"
 ################################## 定义通知TOKEN（选填） ##################################
 ## 想通过什么渠道收取通知，就填入对应渠道的值
 ## ServerChan，教程：http://sc.ftqq.com/3.version
-SCKEY=""
+SCKEY="SCU115412T29471babf1a5de5c93a2ac1fd51e14475f6e061410cb5"
 
 ## BARK，如需使用，BARK_PUSH和BARK_SOUND必须同时赋值，教程：https://github.com/lxk0301/jd_scripts/blob/master/githubAction.md，看BARK部分
 BARK_PUSH=""
@@ -211,13 +211,13 @@ drawLotteryFlag=""
 
 ################################## 定义东东农场是否静默运行（选填） ##################################
 ## 默认为 false，不静默，发送推送通知消息，如不想收到通知，请修改为 true
-NotifyFruit=""
+NotifyFruit="false"
 
 
 ################################## 定义东东农场是否使用水滴换豆卡（选填） ##################################
 ## 如果出现限时活动时100g水换20豆，此时比浇水划算，true表示换豆（不浇水），false表示不换豆（继续浇水）,js脚本默认是false（继续浇水）
 ## 如需切换为换豆（不浇水），请修改为 true
-jdFruitBeanCard=""
+jdFruitBeanCard="true"
 
 
 ################################## 定义宠汪汪喂食克数（选填） ##################################
